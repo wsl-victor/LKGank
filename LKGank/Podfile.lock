@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BmobSDK (2.1.9)
+  - DACircularProgress (2.3.1)
+  - FDFullscreenPopGesture (1.1)
+  - LGAlertView (2.1.1)
+  - LGPlusButtonsView (1.1.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.14)
+  - PYPhotoBrowser (1.3.2):
+    - DACircularProgress
+    - MBProgressHUD
+    - SDWebImage (~> 3.8.2)
+  - Reachability (3.2)
+  - Realm (2.4.4):
+    - Realm/Headers (= 2.4.4)
+  - Realm/Headers (2.4.4)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BmobSDK (~> 2.1.7)
+  - FDFullscreenPopGesture (~> 1.1)
+  - LGAlertView (~> 2.1.1)
+  - LGPlusButtonsView (~> 1.1.1)
+  - Masonry (~> 1.0.2)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - PYPhotoBrowser (~> 1.3.2)
+  - Reachability (~> 3.2)
+  - Realm (~> 2.4.4)
+  - YYCache (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BmobSDK: ecedc8fd992b43027b78cf42624fdb28e417e7db
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  LGAlertView: e9bcdb5eff9eeabdafdb3d804994ac80188b6a1c
+  LGPlusButtonsView: 57878cd3d461d0ee2042f5b7b25d1c017e22a084
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 6642e35b3227a5447b9fd5e17c552c90196c9859
+  PYPhotoBrowser: 46b5d9e92e67244e3575db55b485f318de8b2095
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  Realm: 5a280a1f5a9a3c267bebf4f41ee47911137703d7
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 28ed6eb3c0f7e8ff7470cda9272b650278e35266
+
+COCOAPODS: 1.2.0

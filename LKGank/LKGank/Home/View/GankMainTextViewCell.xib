@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="GankMainTextViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="GankMainTextViewCell" rowHeight="90" id="KGk-i7-Jjw" customClass="GankMainTextViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="2017-02-12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGV-Cg-nhp">
+                        <rect key="frame" x="10" y="61" width="67" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="Wox-N0-EMy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="推荐人：网名" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NM3-4d-nnj">
+                        <rect key="frame" x="264" y="61" width="74" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="cys-oc-w9Y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cu3-mh-bax">
+                        <rect key="frame" x="0.0" y="89" width="348" height="1"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Sx1-Le-aJQ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyO-Zf-E0k">
+                        <rect key="frame" x="10" y="10" width="35.5" height="46"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Cu3-mh-bax" secondAttribute="trailing" id="5Pq-Vn-dOn"/>
+                    <constraint firstItem="Cu3-mh-bax" firstAttribute="top" secondItem="NM3-4d-nnj" secondAttribute="bottom" constant="10" id="6MW-Wu-qj9"/>
+                    <constraint firstItem="tyO-Zf-E0k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="6Wh-BM-AOV"/>
+                    <constraint firstItem="Cu3-mh-bax" firstAttribute="top" secondItem="tGV-Cg-nhp" secondAttribute="bottom" constant="10" id="8S0-dv-sM0"/>
+                    <constraint firstItem="tyO-Zf-E0k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="By3-bU-C5H"/>
+                    <constraint firstItem="tGV-Cg-nhp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Eak-qD-LSR"/>
+                    <constraint firstItem="Cu3-mh-bax" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LiM-zF-3LV"/>
+                    <constraint firstAttribute="bottom" secondItem="Cu3-mh-bax" secondAttribute="bottom" id="Med-wR-LXE"/>
+                    <constraint firstItem="tGV-Cg-nhp" firstAttribute="top" secondItem="tyO-Zf-E0k" secondAttribute="bottom" constant="5" id="b6F-km-Dq6"/>
+                    <constraint firstAttribute="trailing" secondItem="NM3-4d-nnj" secondAttribute="trailing" constant="10" id="l8d-OM-NWJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateTime" destination="tGV-Cg-nhp" id="ThW-YF-xsf"/>
+                <outlet property="nameP" destination="NM3-4d-nnj" id="gTy-Yw-ZUd"/>
+                <outlet property="textviewTV" destination="tyO-Zf-E0k" id="vru-mC-Ybl"/>
+            </connections>
+            <point key="canvasLocation" x="69" y="134"/>
+        </tableViewCell>
+    </objects>
+</document>

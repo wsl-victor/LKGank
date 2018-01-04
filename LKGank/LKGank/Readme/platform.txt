@@ -1,0 +1,38 @@
+
+代码管理平台
+https://git.oschina.net/
+
+
+平台
+http://dashboard.mob.com/#!/share/dashboard
+
+
+、、
+http://www.bmob.cn/
+
+==========================================
+分享平台：start：umengAppkey：597caea45312dd3a80000263
+==========================================
+QQ：8
+http://op.open.qq.com/
+
+APP ID  1106320100 == 41F11AE4
+
+APP KEY t1dlZVy3feQPigs0
+
+微信：a
+https://open.weixin.qq.com/
+
+新浪微博:a
+http://open.weibo.com/
+
+
+App Key：
+2855525464
+
+App Secret：
+5da6a892d9eb4e5485cf47729933cd51
+
+==========================================
+分享平台：end
+==========================================

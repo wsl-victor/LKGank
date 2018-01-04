@@ -1,0 +1,17 @@
+//
+//  LKGankPrefixHeader.pch
+//  LKGank
+//
+//  Created by Stephen on 2017/7/30.
+//  Copyright © 2017年 wsl. All rights reserved.
+//
+
+#ifndef LKGankPrefixHeader_pch
+#define LKGankPrefixHeader_pch
+
+#define PathApp NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES).firstObject
+#define PathCategory [PathApp stringByAppendingPathComponent:@"category.plist"]
+
+#import <UMMobClick/MobClick.h>
+#import "UmengStatistics.h"
+#endif /* LKGankPrefixHeader_pch */
